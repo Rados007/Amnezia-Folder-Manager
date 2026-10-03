@@ -39,32 +39,6 @@
 
 ---
 
-## Запуск
-
-### Вариант A — скрипт
-
-```text
-START.cmd
-```
-
-или:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -STA -File .\Amnezia-Folder-Manager-v3.ps1
-```
-
-### Вариант B — exe
-
-Сборка (нужен модуль [ps2exe](https://github.com/MScholtes/PS2EXE)):
-
-```powershell
-Invoke-ps2exe -inputFile .\Amnezia-Folder-Manager-v3.ps1 -outputFile .\AmneziaFolderManager.exe -iconFile .\icon.ico -noConsole -sta -title "Amnezia Folder Manager" -version "8.9.3.0"
-```
-
-После сборки достаточно запускать `AmneziaFolderManager.exe`.
-
----
-
 ## Горячие клавиши
 
 | Клавиша | Действие |
